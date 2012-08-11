@@ -73,7 +73,6 @@ h3 {
     border: 2px solid #da7224;
     margin: auto;
     width: 400px;
-
 }
 
 #me {
@@ -81,20 +80,29 @@ h3 {
 }
 
 #appOne {
-          margin: 0 0 0 50px;
+          margin: 10px 0 0 40px;
+          padding: 0;
 }
 
 #appTwo {
-
           width: 200px;
           position: relative;
-          top: -28px;
-          left: 250px;
+          top: -40px;
+          left: 288px;
+          padding; 0;
+}
+
+#demo {
+       margin-left: 170px;
+       position: relative;
+       top: -82px;
+       padding: 0;
 }
 
 #jen {
       margin: 0 0 0 75px;
 }
+
 #wk1_text {
             margin: 8px;
 }
@@ -171,9 +179,10 @@ p {
     line-height: 1em;
 }
 
-ul {
+ul li {
     text-align: center;
-
+    margin: 0 auto;
+    text-decoration: none;
 }
 
 li {
@@ -181,40 +190,43 @@ li {
     display: block;
 }
 
+ul#reflect li {
+               display: inline;
+}
+#github a {
+          font-size: 12px;
+}
+
+ul#github li {
+               margin-right: 1em;
+               display: inline;            
+}
+
 a {
     font-size: 12px;
     padding: 0 50px 0 0;
+    text-decoration: none;
+}
+
+a:link {
+    color: #0000ff;
 }
 
 a:hover {
-    color: #ff0000;
+         color: #ff0000;
+         font-size; 18px; 
 }
+
+a:visited {
+           color: #008531;
+}
+
 
 #logo {
     size: 200px;
     padding: 10px 0 0 58px;
 }
 
-img ul li{
-    text-decoration: none;
-    text-align: center;
-    padding: 10px 0 0 22px;
-    background: #dce5ea;
-}
-
-ul li ul {
-    text-decoration: none;
-}
-
-ul li ul li{
-    background-color: #dce5ea;
-    margin-left: -60px;
-    margin-right: -25px;
-    padding-left: 25px;
-    padding-right:30px;
-    border-left:  1px solid #3d1efb;
-    border-right: 1px solid #3d1efb;
-}
 
 legend {
     padding: 0 2px 0 4px;

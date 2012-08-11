@@ -1,0 +1,68 @@
+<!doctype html>  
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	
+	<title>Movie Tracker</title>
+	
+	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Mobile IE needs ClearType for smoothing fonts -->
+	<meta http-equiv="cleartype" content="on">
+	
+	<!-- StyleSheets under here -->
+	<link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.8.18.custom.css" type="text/css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
+	<link rel="stylesheet" href="css/styles.css" type="text/css"/>
+	
+	
+	<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
+	<script src="js/libs/modernizr.custom.min.js"></script>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	
+	
+</head>
+
+<body>
+
+
+<div data-role="page" id="geolocation" data-add-back-btn="true">
+	
+		<div data-role="header" data-position="fixed">
+			<h1>Map</h1>
+		</div>
+		
+		<div data-role="content">
+                <div id="map_canvas">Map</div>
+		    
+		</div>    		   
+		 <br />
+		 <br /> 
+		 	
+			
+		<div data-role="footer" data-position="fixed">
+			
+			<a href="index.html" data-icon="home" class="ui-btn-active">Go Home</a>
+		</div>
+		
+</div> <!-- end of page div -->
+
+
+
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+	
+	<script type="text/javascript" src="js/libs/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/ui.js"></script>
+	<script type="text/javascript" src="js/geolocation.js"></script>
+	
+	
+	
+
+</body>
+</html>

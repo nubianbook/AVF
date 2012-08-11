@@ -1,4 +1,6 @@
-<!doctype html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
 <html>
 <head>
     <title>Carol G. AVF Class Page</title>
@@ -9,14 +11,16 @@
     <!-- iPad/iPhone specific css below, add after your main css -->
     <link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="ipad.css" type="text/css" />
     <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="iphone.css" type="text/css" />
-    <script type="text/javascript" charset="utf-8" src="cordova-2.0.0.js"></script>
+    
     <!-- StyleSheets under here -->
     <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
 
 </head>
 
 <body>
 
+    
 <!-- header section -->
   <header>
       <h1>
@@ -35,8 +39,9 @@
 <!-- section one host my apps -->
   <section class="sections">
       <h2>--- CRUD APPS ---</h2>
-        <p id="appOne"><a href="http://nubianbook.github.com/mypage-4">Original CRUD</a></p>
-        <p id="appTwo"><a href="*">Revised App</a></p>
+        <p id="appOne"><a href="http://nubianbook.github.com/mypage-4">Original<br/> CRUD</a></p>
+        <p id="appTwo"><a href="http://nubianbook.github.com/revisedMIU/">Revised</a></p>
+        <p id="demo"><a href="newHome/www/index.html">Demo<br/> App</a></p>
   </section>
 
   <br />
@@ -53,12 +58,12 @@
           <img src="images/apple.png">
       </div>
           <ul id="move">
-              <li><a href="*">Alerts</a></li>
-              <li><a href="*">Geolocation</a></li>
-              <li><a href="*">Accelerometer</a></li>
+              <li><a href="www/index.html">Movie-IOS</a></li>
+              <li><a href="www/index.html">Alerts-IOS-Android</a></li>
+              <li><a href="www/index.html">Geolocation-IOS-Android</a></li>
+              <li><a href="www/index.html">Accelerometer</a></li>
               <li><a href="*">Contacts</a></li>
-              <li><a href="*">Camera</a></li>
-          </ul>
+        </ul>
       <br clear="all">
   </section>
 
@@ -69,15 +74,43 @@
       <h2>--- Weekly Research Discussions ---</h2>
          <ul>
              <li><a href="wk1_discuss.html">Wk-1 Discussion</a></li>
-             <li><a href="*">Wk-2 Discussion</a></li>
-             <li><a href="*">Wk-3 Discussion</a></li>
+             <li><a href="wk2_discuss.html">Wk-2 Discussion</a></li>
+             <li><a href="wk3_discuss.html">Wk-3 Discussion</a></li>
          </ul>
   </section>
 
     <br />
+    
+<!-- section four host my videos -->
+    <section class="sections">
+        <h2>--- Reflection Videos ---</h2>
+        <ul id="reflect">
+            <li><a href="https://dl.dropbox.com/u/88308333/AVF_project-1.mov" width="640" height="360"><img src="images/video1.png"></a></li>
+            <li><a href="https://dl.dropbox.com/u/88308333/AVFpro2.mov" width="320" height="240" ></a><img src="images/video2.png"></li>
+            <li><a href="wk3_discuss.html"></a><img src="images/video3.png"></li>
+            <li><a href="wk4_discuss.html"></a><img src="images/video4.png"></li>
+        </ul>
+    </section>
+    
+    <br />
+    
+<!-- section three host my github info -->
+    <section class="sections">
+        <h2>--- My Github Links ---</h2>
+        <ul id="github">
+            <li><a href="https://github.com/nubianbook/AVF-project_1">Wk-1 github link</a></li>
+            <li><a href="http://nubianbook.github.com/AVF/index.html">Wk-1 github pages link</a></li>
+            <li><a href="*">Wk-2 github link</a></li>
+            <li><a href="*">Wk-2 github pages link</a></li>
+            <li><a href="*">Wk-3 github link</a></li>
+            <li><a href="*">Wk-1 github pages link</a></li>
+        </ul>
+    </section>
+    
+    <br />
 
 <!-- footer for my information -->
- <footer>
+ 
      <section>
          <div>
              <p id="foot_image">
@@ -85,10 +118,13 @@
              </p>
          </div>
      </section>
- </footer>
+ 
 
 </div> <!-- end of container wrap -->
 
-
+<!-- Javascript scripts go here -->
+    
+    <script type="text/javascript" charset="utf-8" src="cordova-2.0.0.js"></script>
+    
 </body>
 </html>
